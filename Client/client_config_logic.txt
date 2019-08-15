@@ -1,0 +1,33 @@
+#just a place for me to write out logic for grabbing client config and pushing to server using TinyDB
+
+##########Client Side##########
+1. initial start of client
+2. check to see if first run
+3. if first run grab all client info and save to config file(ex. somename.json)
+4. check to see if client is registered
+5. if registerd update info if needed
+6. if not  register client
+7. recieve registration sucessful from server
+8. once complete continue client
+9. use custom dbase_client to query/recieve values from server
+
+
+notes:
+register clients get following info: hostname mac ip arch uname
+
+
+
+###########Server Side##########
+1. initial connect from client
+2. check to see if client is registered
+3. if registered recieve/respond to queries from client. 
+4. if not register client on server
+5. save client info to server dbase(ex. somename.json)
+6. send registrtion sucessful back to client
+7. recieve/respond to queries from client.
+
+
+Notes:
+create key value pairs for dbase use
+use dbase for holding cmds?
+all settings saved to json file on close!!!!!!!

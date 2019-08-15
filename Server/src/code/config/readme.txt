@@ -1,0 +1,1 @@
+all configs for connected nodes and server will be in here. everything will be in json format. i am using tinydb to query and control things

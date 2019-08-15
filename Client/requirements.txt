@@ -1,0 +1,3 @@
+pyserial
+tinydb
+pywin32
